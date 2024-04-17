@@ -8,7 +8,8 @@ Defina uma fonte do tipo sans-serif para a página inteira
 Indente os parágrafos em 1em */
 
 *{
-    width: 1000px;
+    width: 950px;
     font-family: sans-serif;
     text-indent: 1em;
+
 }

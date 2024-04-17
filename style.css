@@ -5,11 +5,85 @@
 Aspectos gerais. Aplique os seguintes estilos a estrutura geral da página.
 Defina um tamanho fixo para a página inteira
 Defina uma fonte do tipo sans-serif para a página inteira
-Indente os parágrafos em 1em */
+Indente os parágrafos em 1em 
 
-*{
-    width: 950px;
+Títulos. Alinhe todos os títulos para o centro ou a direita.
+Defina o tamanho do h1 em 1.8rem
+Defina o tamanho do h2 em 1.4rem
+Defina o tamanho do h3 em 1.2rem
+*/
+
+/*Seções de resumo e principal. Localize os elementos que representam 
+a seção de resumo e principal da página, e aplique nelas:
+Alinhamento a direita ou centralizado para a seção de resumo.
+Espaçamento entre as linhas de 1.5 para os parágrafos da seção 
+principal.
+Abreviaturas. Customize todos as abreviaturas para que a fonte 
+seja carregada em small-caps.
+
+resumo
+*/
+
+body{
+    background-color: #652239a2;
+    width: 800px;
+    margin-left: 500px;
     font-family: sans-serif;
     text-indent: 1em;
-
 }
+
+h1{
+    font-size: 1.8rem;
+    text-align: center;
+    color: #252525;
+    
+}
+h2{
+    font-size: 1.4rem;
+    text-align: left;
+    color: #252525;
+    
+}
+h3{
+    font-size: 1.2rem;
+    text-align: left;
+    color: #252525;
+}
+p{
+    color: #252525;
+    margin-left: 60px;
+}
+
+
+.summary{
+    margin-left: 10px;
+    line-height: 1.5em
+}
+
+#zen-supporting{
+    margin-left: 10px;
+    line-height: 1.5em
+}
+abbr{
+    font-variant: small-caps;
+}
+/*
+.preamble > p{
+    margin-left: 600px;
+}
+.explanation > p{
+    margin-left: 600px;
+}
+.participation > p{
+    margin-left: 600px;
+}
+.benefits > p{
+    margin-left: 600px;
+}
+.requirements > p{
+    margin-left: 600px;
+}
+/*p{
+    margin-left: 600px;
+}*/
+

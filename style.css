@@ -24,66 +24,95 @@ seja carregada em small-caps.
 resumo
 */
 
+/* Aspectos gerais */
 body{
-    background-color: #652239a2;
-    width: 801px;
-    margin-left: 500px;
-    font-family: sans-serif;
+    background-color:#504b4b88;
+    color: #252525;
+    font-family:sans-serif;
+    font-size: 1em;
+    width: 80%;
+    margin-left: 15%;
+    max-width: 1280px;
+    text-align: center;
+}
+.intro{
+    height: 550px;
+}
+#design-archives{
+    display: none;
+}
+
+header{
+    background: rgb(55, 56, 56);
+    color:#ffffff;
+    
+
+}
+h1, h2, h3{
+    text-align: center;
+}
+p{
     text-indent: 1em;
+    color: #252525;
+    
 }
 
 h1{
     font-size: 1.8rem;
-    text-align: center;
-    color: #252525;
+    padding: 1em;
+    display: inline-block;
+    margin-right: 1em;
     
 }
+
 h2{
     font-size: 1.4rem;
-    text-align: left;
-    color: #252525;
-    
+    display: inline-block;
 }
+
 h3{
     font-size: 1.2rem;
-    text-align: left;
-    color: #252525;
 }
-p{
-    color: #272727;
-    margin-left: 60px;
-}
-
-
 .summary{
-    margin-left: 10px;
-    line-height: 1.5em
+    text-align: center;
+    font-size: 1em; 
+    line-height: 1.5em;
 }
 
-#zen-supporting{
-    margin-left: 10px;
-    line-height: 1.5em
-}
 abbr{
     font-variant: small-caps;
 }
-/*
-.preamble > p{
-    margin-left: 600px;
+
+
+.page-wrapper{
+    position: relative;
+
 }
-.explanation > p{
-    margin-left: 600px;
+.explanation{
+  
+    width: 60%;
+    top: 560px;
+    margin-right: 35%;
+    padding-right: 2%;
+    border-right: 1px solid #1f295c;
 }
-.participation > p{
-    margin-left: 600px;
+footer > a{
+    border-style: solid;
+    border-width: 2px;
+    padding: 0.5em;
 }
-.benefits > p{
-    margin-left: 600px;
+.sidebar ul{
+    list-style-type: none;
 }
-.requirements > p{
-    margin-left: 600px;
+.sidebar li{
+    margin-bottom: 1em;
+    text-align: center;
 }
-/*p{
-    margin-left: 600px;
-}*/
+.design-selection{
+    position: absolute;
+    top: 420px;
+    left: 62%;
+    padding: 2%;
+}
+
 

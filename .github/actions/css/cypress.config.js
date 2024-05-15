@@ -1,4 +1,4 @@
-const cypressPath = process.env.cypressPath || ".";
+const cypressPath = process.env.CYPRESS_PATH ? process.env.CYPRESS_PATH : '.';
 
 module.exports = {
   e2e: {

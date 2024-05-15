@@ -96,15 +96,12 @@ abbr{
     top: 560px;
     margin-right: 35%;
     padding-right: 2%;
-    border-right: 1px solid #1f295c;
-}
-footer > a{
-    border-style: solid;
-    border-width: 2px;
-    padding: 0.5em;
+    border-top: 1px solid #1f295c;
 }
 
+
 .sidebar li{
+    border-top: #1f295c;
     margin-bottom: 1em;
     text-align: center;
 }
@@ -136,7 +133,7 @@ a:visited{
 .design-selection li {
     padding-top: 5%;
     height: 1px;
-    border-top: 1px #fca5a5;
+    border-top: 1fpx #fca5a5;
     
 }
 
@@ -145,4 +142,65 @@ a:visited{
     height: 50px;
     
 }
+
+footer > a{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-style: solid;
+    border-width: 2px;
+    padding: 0.5em;   
+    
+}
+
+
+
+.benefits {
+    display: flex;
+    border-top: 1px solid #F6F7D9;
+    border-bottom: 1px solid #F6F7D9;
+    padding: 10px;
+}
+
+.benefits p {
+    flex-basis: 70%;
+    align-self: flex-start;
+}
+
+.benefits h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.participation {
+    display: flex;
+    border-bottom: 1px solid #F6F7D9;
+    padding: 10px 0;
+}
+
+.participation > div {
+    flex: 0 0 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #F6F7D9; /* Add a right border to the first item */
+}
+
+.participation > div:last-child {
+    border-right: none; /* Remove the right border from the last item */
+}
+
+.participation h1 {
+    margin: 0; /* Remove default margin for better alignment */
+}
+
+/* Remoção de borda duplicada */
+.benefits + .participation {
+    border-top: none;
+}
+
+
+
+
 

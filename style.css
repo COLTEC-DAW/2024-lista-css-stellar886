@@ -25,6 +25,8 @@ resumo
 */
 
 /* Aspectos gerais */
+
+
 body{
     background-color:#504b4b88;
     color: #252525;
@@ -101,9 +103,7 @@ footer > a{
     border-width: 2px;
     padding: 0.5em;
 }
-.sidebar ul{
-    list-style-type: none;
-}
+
 .sidebar li{
     margin-bottom: 1em;
     text-align: center;
@@ -115,4 +115,34 @@ footer > a{
     padding: 2%;
 }
 
+a{
+    font-weight: bold;
+}
+a:hover{
+    color:#ffffff
+}
+
+a:visited{
+    font-weight: normal;
+}
+
+.main p:first-of-type:first-letter{
+    font-size: 300%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
+
+}
+
+.design-selection li {
+    padding-top: 5%;
+    height: 1px;
+    border-top: 1px #fca5a5;
+    
+}
+
+.design-selection li:last-child {
+    border-bottom: 100px; 
+    height: 50px;
+    
+}
 

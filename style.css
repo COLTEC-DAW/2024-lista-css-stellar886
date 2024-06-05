@@ -295,8 +295,24 @@ footer{
     .explanation{
         border-right: none;
     }
+
+    .participation {
+        flex-direction: column;
+    }
+    header{
+        height: none;
+    }
+    p{
+        text-indent: 0%;
+    }
     
     
+}
+
+@media print{
+    body{
+        font-family: 'Times New Roman', Times, serif;
+    }
 }
 
 

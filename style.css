@@ -33,6 +33,7 @@ h1, h2, h3{
 p{
     text-indent: 1em;
     color: #252525;
+    font-size: 1em;
     
 }
 
@@ -91,10 +92,12 @@ abbr{
     text-align: center;
 }
 .design-selection{
-    position: static;
+    position: absolute;
     top: 420px;
     left: 62%;
     padding: 2%;
+    margin-top: 130px;
+    
 }
 
 a{
@@ -270,16 +273,6 @@ footer{
 
 
 
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 768px){
     
     p{
@@ -288,9 +281,7 @@ footer{
     }
 
     .design-selection{
-        top: 4000px;
-        left: 25%;
-        padding: 2%;
+        position: static;
     }
     .explanation{
         border-right: none;
@@ -310,9 +301,13 @@ footer{
 }
 
 @media print{
-    body{
-        font-family: 'Times New Roman', Times, serif;
+    
+    html{font-family: 'Times New Roman', Times, serif;}
+    header{
+        background-color: #ffffff;
+        color: #252525;
     }
+    body{background: rgba(rgb(231, 179, 179), rgb(154, 233, 154), rgb(183, 183, 255), alpha);}
 }
 
 

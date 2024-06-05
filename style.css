@@ -1,32 +1,3 @@
-/*#65223A fundo 
-#F6F7D9 texto 
-#C04B3B 
-
-Aspectos gerais. Aplique os seguintes estilos a estrutura geral da página.
-Defina um tamanho fixo para a página inteira
-Defina uma fonte do tipo sans-serif para a página inteira
-Indente os parágrafos em 1em 
-
-Títulos. Alinhe todos os títulos para o centro ou a direita.
-Defina o tamanho do h1 em 1.8rem
-Defina o tamanho do h2 em 1.4rem
-Defina o tamanho do h3 em 1.2rem
-*/
-
-/*Seções de resumo e principal. Localize os elementos que representam 
-a seção de resumo e principal da página, e aplique nelas:
-Alinhamento a direita ou centralizado para a seção de resumo.
-Espaçamento entre as linhas de 1.5 para os parágrafos da seção 
-principal.
-Abreviaturas. Customize todos as abreviaturas para que a fonte 
-seja carregada em small-caps.
-
-resumo
-*/
-
-/* Aspectos gerais */
-
-
 body{
     background-color:#504b4b88;
     color: #252525;
@@ -36,8 +7,9 @@ body{
     margin-left: 15%;
     max-width: 1280px;
     text-align: center;
-    
 }
+
+
 .intro{
     height: 550px;
 }
@@ -48,8 +20,8 @@ body{
 header{
     background: rgb(55, 56, 56);
     color:#ffffff;
+    padding: 20px;
     
-
 }
 h1, h2, h3{
     text-align: center;
@@ -57,7 +29,6 @@ h1, h2, h3{
 p{
     text-indent: 1em;
     color: #252525;
-    
 }
 
 h1{
@@ -65,7 +36,6 @@ h1{
     padding: 1em;
     display: inline-block;
     margin-right: 1em;
-    
 }
 
 h2{
@@ -77,7 +47,7 @@ h3{
     font-size: 1.2rem;
 }
 .summary{
-    text-align: justify;
+    text-align: center;
     font-size: 1em; 
     line-height: 1.5em;
 }
@@ -86,13 +56,10 @@ abbr{
     font-variant: small-caps;
 }
 
-
 .page-wrapper{
     position: relative;
-
 }
 .explanation{
-  
     width: 60%;
     top: 560px;
     margin-right: 35%;
@@ -100,17 +67,10 @@ abbr{
     border-top: 1px solid #1f295c;
 }
 
-
 .sidebar li{
     border-top: #1f295c;
     margin-bottom: 1em;
     text-align: center;
-}
-.design-selection{
-    position: absolute;
-    top: 420px;
-    left: 62%;
-    padding: 2%;
 }
 
 a{
@@ -132,13 +92,7 @@ a:visited{
 
 }
 
-.design-selection li {
-    padding-top: 5%;
-    height: 1px;
-    border-top: 1fpx #fca5a5;
-    
-}
-
+/*
 .design-selection li:last-child {
     border-bottom: 100px; 
     height: 50px;
@@ -154,10 +108,6 @@ footer > a{
     padding: 0.5em;   
     
 }
-footer{
-    
-}
-
 
 
 
@@ -172,42 +122,40 @@ footer{
     border-bottom: 1px solid #F6F7D9;
     padding: 10px;
 }
-
 .benefits p {
     flex-basis: 70%;
-    align-self: flex-start;
+    align-self: center;
 }
-
 .benefits h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
+
+
 .participation {
     padding-top: 20px; /* Espaçamento opcional */
     display: flex;
+    flex-wrap: wrap;
     border-bottom: 1px solid #F6F7D9;
     padding: 10px 0;
 }
-
 .participation > div {
     flex: 0 0 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-right: 1px solid #F6F7D9; /* Add a right border to the first item */
+    border-right: 1px solid #F6F7D9;
 }
-
 .participation > div:last-child {
-    border-right: none; /* Remove the right border from the last item */
+    border-right: none;
 }
-
 .participation h1 {
-    margin: 0; /* Remove default margin for better alignment */
+    margin: 0;
 }
 
-/* Remoção de borda duplicada */
+
+
 .benefits + .participation {
     border-top: none;
 }
@@ -236,4 +184,15 @@ footer{
 
 
 
-
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    display: flex;
+}
+footer > a {
+    border-style: solid;
+    border-width: 2px;
+    padding: 0.5em;
+}

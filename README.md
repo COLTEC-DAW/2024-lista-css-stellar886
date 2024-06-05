@@ -96,7 +96,7 @@ O foco dessa atividade será reposicionar os elementos da nossa página!
 
 1. Defina o elemento `.page-wrapper` como referência para posicionamento.
 2. Faça com que o painel `.explanation` ocupe 60% da largura disponível, mas crie um espaçamento a direita de 35% utilizando `margin`.  
-    - Adicione uma borda à direita do painel de 1px, com a cor `#1f295c`  
+    - Adicione uma borda à direita do painel de 1px  
     - Adicione um espaçamento interno de 2% no lado direito do painel.
 3. Agora mova o menu de designs para a direita da página, ocupando o espaço em branco deixado pelo elemento `.explanation`.  
     - Faça-o iniciar na parte superior da página, após a parte de introdução (por exemplo, aplicando `top: 560px`).  
@@ -108,7 +108,6 @@ O foco dessa atividade será reposicionar os elementos da nossa página!
 1. Customize a aparência dos links da seguinte forma:
 	- Por padrão, devem ter a cor de destaque e estarem em negrito.
 	- Se sobrepostos, devem ter sua cor alterada para uma tonalidade mais clara/escura.
-	- Os links visitados não devem ficar mais em negrito.
 2. Vamos dar um destaque a primeira letra do primeiro parágrafo da seção principal. Você deverá customizá-lo para que:
 	- Tenha tamanho de fonte 3 vezes maior que o padrão.
 	- Seja de uma fonte diferente da escolhida para o site.
@@ -130,7 +129,7 @@ O foco dessa atividade será reposicionar os elementos da nossa página!
 3. Configure um layout de flexbox para a seção de participação da seguinte forma:  
     - Cada item deve ocupar 50% do espaço disponível.  
     - O título deverá ficar centralizado verticalmente.
-4. Inclua uma linha no topo e embaixo das seções de benefícios e participação, utilizando a propriedade `border-bottom` e `border-top` respectivamente.  
+4. Inclua uma linha no topo e embaixo das seções de participação e benefícios, utilizando a propriedade `border-bottom` e `border-top` respectivamente.  
     - Remova a ocorrência de borda duplicada entre as duas seções
 
 [^1]: [CSS Zen Garden: The Beauty of CSS Design](https://www.csszengarden.com/)

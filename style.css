@@ -1,14 +1,317 @@
-/*#65223A fundo 
-#F6F7D9 texto 
-#C04B3B 
 
-Aspectos gerais. Aplique os seguintes estilos a estrutura geral da página.
-Defina um tamanho fixo para a página inteira
-Defina uma fonte do tipo sans-serif para a página inteira
-Indente os parágrafos em 1em */
-
-*{
-    width: 1000px;
-    font-family: sans-serif;
-    text-indent: 1em;
+body{
+    background-color:#504b4b88;
+    color: #252525;
+    font-family:sans-serif;
+    font-size: 1em;
+    width: 80%;
+    padding: 0 20px;
+    line-height: 1.5;
+    margin-left: 15%;
+    margin: 0 auto;
+    max-width: 1280px;
+    text-align: center;
+    
 }
+.intro{
+    height: 550px;
+}
+#design-archives{
+    display: none;
+}
+
+header{
+    padding: 1em;
+    background: rgb(55, 56, 56);
+    color:#ffffff;
+    
+
+}
+h1, h2, h3{
+    text-align: center;
+}
+p{
+    text-indent: 1em;
+    color: #252525;
+    font-size: 1em;
+    
+}
+
+h1{
+    font-size: 1.8rem;
+    padding: 1em;
+    display: inline-block;
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+    
+}
+
+h2{
+    font-size: 1.4rem;
+    display: inline-block;
+}
+
+h3{
+    font-size: 1.2rem;
+}
+.summary{
+    text-align: center;
+    font-size: 1em; 
+    line-height: 1.5em;
+}
+
+abbr{
+    font-variant: small-caps;
+}
+
+.main p{
+    line-height: 1.5;
+}
+
+.page-wrapper{
+    position: relative;
+}
+
+.explanation{
+  
+    width: 60%;
+    top: 560px;
+    margin-right: 35%;
+    padding-right: 2%;
+    border-top: 1px solid #1f295c;
+}
+
+.siderbar ul{
+    list-style-type: none;
+}
+
+
+.sidebar li{
+    border-top: #1f295c;
+    margin-bottom: 1em;
+    text-align: center;
+}
+.design-selection{
+    position: absolute;
+    top: 420px;
+    left: 62%;
+    padding: 2%;
+    margin-top: 130px;
+    
+}
+
+a{
+    color: rgb(0, 0, 238);
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    color:#ffffff
+}
+
+a:visited{
+    font-weight: normal;
+}
+
+.main p:first-of-type:first-letter{
+    font-size: 300%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
+
+}
+.design-selection{
+    border-top: 1px solid black;
+}
+.design-selection li {
+    padding-top: 5%;
+    height: 1px;
+    border-top: 1fpx #fca5a5;
+    
+}
+
+.design-selection li:last-child {
+    border-bottom: 100px; 
+    height: 50px;
+    
+}
+
+.design-selection nav ul li,
+.design-archives nav ul li,
+.zen-resources ul li {
+    border-top: 1px solid #ccc; /* Adiciona borda superior a todos os itens */
+}
+
+.design-selection nav ul li, .design-archives nav ul, .zen-resources ul{
+list-style-type: none;
+padding: 0;
+}
+
+.design-selection nav ul li:last-child,
+.design-archives nav ul li:last-child,
+.zen-resources ul li:last-child {
+    border-bottom: 1px solid #eed8d8; 
+}
+
+footer > a{
+    flex:1;
+    text-align: center;
+    margin: 0 5px;
+    border: 2px solid #1f295c;
+    display: flex;
+    border-bottom: 1px solid #1f295c;
+    align-items: center;
+    justify-content: space-around;
+    border-style: solid;
+    border-width: 2px;
+    padding: 0.5em;   
+    
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4% 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+    
+
+
+.benefits {
+     /* Outras regras de estilo para a seção de benefícios */
+     border-bottom: 1px solid black; /* Adiciona uma borda sólida na parte inferior */
+     margin-bottom: 20px; /* Espaçamento opcional */
+     
+     align-items: center;
+     
+ 
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #F6F7D9;
+    border-bottom: 1px solid #F6F7D9;
+    padding: 10px;
+}
+
+.benefits p {
+    flex-basis: 70%;
+    align-self: flex-start;
+}
+
+.benefits h3{
+    margin-right: 1em;
+    flex-basis: 30%;
+    text-align: center;
+}
+.benefits h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.participation {
+    
+    flex-wrap: wrap;
+    border-top: 1px solid #004a61;
+    
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding-top: 20px; /* Espaçamento opcional */
+    display: flex;
+    border-bottom: 1px solid #F6F7D9;
+    padding: 10px 0;
+}
+
+.participation > div {
+    flex: 0 0 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #F6F7D9; /* Add a right border to the first item */
+}
+
+.participation > div:last-child {
+    border-right: none; /* Remove the right border from the last item */
+}
+
+.participation h1 {
+    margin: 0; /* Remove default margin for better alignment */
+}
+
+/* Remoção de borda duplicada */
+.benefits + .participation {
+    border-top: none;
+}
+
+.benefits h3 {
+    text-align: center;
+    flex-basis: 50%;
+    align-self: center; /* Centraliza cada <h3> individualmente */
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto; /* Isso centraliza o contêiner */
+}
+
+.separator {
+    border-top: 1px solid black; /* Linha sólida */
+    margin: 20px 0; /* Espaçamento opcional */
+}
+
+.participation .item {
+    flex: 1 1 50%; /* Permite que os itens tenham pelo menos 50% da largura */
+    box-sizing: border-box; /* Garante que o padding e a borda sejam incluídos na largura total */
+    padding: 10px; /* Padding opcional */
+}
+
+.participation p{
+    flex-basis: 50%;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    
+    p{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .design-selection{
+        position: static;
+    }
+    .explanation{
+        border-right: none;
+    }
+
+    .participation {
+        flex-direction: column;
+    }
+    header{
+        height: none;
+    }
+    p{
+        text-indent: 0%;
+    }
+    
+    
+}
+
+@media print{
+    
+    html{font-family: 'Times New Roman', Times, serif;}
+    header{
+        background-color: #ffffff;
+        color: #252525;
+    }
+    body{background: rgba(rgb(231, 179, 179), rgb(154, 233, 154), rgb(183, 183, 255), alpha);}
+}
+
+
+
+
+
+

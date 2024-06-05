@@ -36,6 +36,7 @@ body{
     margin-left: 15%;
     max-width: 1280px;
     text-align: center;
+    
 }
 .intro{
     height: 550px;
@@ -76,7 +77,7 @@ h3{
     font-size: 1.2rem;
 }
 .summary{
-    text-align: center;
+    text-align: justify;
     font-size: 1em; 
     line-height: 1.5em;
 }
@@ -113,6 +114,7 @@ abbr{
 }
 
 a{
+    color: rgb(0, 0, 238);
     font-weight: bold;
 }
 a:hover{
@@ -152,11 +154,20 @@ footer > a{
     padding: 0.5em;   
     
 }
+footer{
+    
+}
+
 
 
 
 .benefits {
+     /* Outras regras de estilo para a seção de benefícios */
+     border-bottom: 1px solid black; /* Adiciona uma borda sólida na parte inferior */
+     margin-bottom: 20px; /* Espaçamento opcional */
+ 
     display: flex;
+    flex-direction: column;
     border-top: 1px solid #F6F7D9;
     border-bottom: 1px solid #F6F7D9;
     padding: 10px;
@@ -174,6 +185,7 @@ footer > a{
     
 }
 .participation {
+    padding-top: 20px; /* Espaçamento opcional */
     display: flex;
     border-bottom: 1px solid #F6F7D9;
     padding: 10px 0;
@@ -199,6 +211,27 @@ footer > a{
 .benefits + .participation {
     border-top: none;
 }
+
+.benefits h3 {
+    align-self: center; /* Centraliza cada <h3> individualmente */
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto; /* Isso centraliza o contêiner */
+}
+
+.separator {
+    border-top: 1px solid black; /* Linha sólida */
+    margin: 20px 0; /* Espaçamento opcional */
+}
+
+.participation .item {
+    flex: 1 1 50%; /* Permite que os itens tenham pelo menos 50% da largura */
+    box-sizing: border-box; /* Garante que o padding e a borda sejam incluídos na largura total */
+    padding: 10px; /* Padding opcional */
+}
+
 
 
 
